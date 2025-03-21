@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ai Chat Bot</title>
+    <!-- Favicon for browser tab -->
+    <link rel="icon" type="image/png" href="logo.webp">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Chat Container -->
+    <div class="chat-container">
+        <div id="brand">
+            <img src="ai.png" id="logo" height="100px" alt="Agri-Help Logo" id="brand-logo">'<h1>Agri-Help</h1>
+        </div>
+        <!-- AI Chat Box -->
+        <div class="ai-chat-box">
+            <img src="ai.png" alt="" id="aiImage" width="10%">
+            <div class="ai-chat-area">
+                Hello! I'm Agri-Help, your assistant for organic agriculture. Ask me anything about farming, crops, soil, or sustainable practices!
+            </div>
+        </div>
+    </div>
+    <!-- Prompt Area -->
+    <div class="prompt-area">
+        <input type="text" id="prompt" placeholder="Ask about organic farming...">
+        <button id="mic"><img src="mic-logo.png" alt="Microphone"></button>
+        <button id="audio-toggle"><img src="mute.png" alt="Toggle Audio" id="audio-icon"></button>
+        <button id="image"><img src="img.svg" alt="">
+        <input type="file" accept="images/*" hidden></button>
+        <button id="submit"><img src="submit.svg" alt=""></button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
